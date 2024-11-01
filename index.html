@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly - Live Weather Updates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-cloud-sun"></i>
+                <h1>Weatherly</h1>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="city-input" placeholder="Search for a city...">
+                <button id="current-location">
+                    <i class="fas fa-location-dot"></i> Use My Location
+                </button>
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+
+        <div class="weather-info">
+            <div class="weather-card">
+                <h2 id="city">Loading...</h2>
+                <p id="country"></p>
+                <p id="date-time"></p>
+                <div class="current-weather">
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <div class="temp">
+                        <span id="temp">0</span>°<span id="temp-unit">C</span>
+                    </div>
+                    <p id="weather-desc"></p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-temperature-low"></i>
+                        <p>Feels Like</p>
+                        <p id="feels-like">0°C</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-water"></i>
+                        <p>Humidity</p>
+                        <p id="humidity">0%</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <p>Wind Speed</p>
+                        <p id="wind-speed">0 km/h</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-compass"></i>
+                        <p>Wind Direction</p>
+                        <p id="wind-dir">N</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="forecast-container">
+            <h3>14-Day Forecast</h3>
+            <div class="chart-container">
+                <canvas id="forecastChart"></canvas>
+            </div>
+        </div>
+
+        <footer>
+            <p>Created with <i class="fas fa-heart" style="color: var(--primary-color);"></i> by ClaytonHax Solutions</p>
+            <p>© 2024</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
