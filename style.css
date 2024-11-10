@@ -74,6 +74,7 @@ header {
     transform: scale(1.1);
 }
 
+/* Update the search-container and search-box styles */
 .search-container {
     margin: 30px 0;
 }
@@ -82,13 +83,13 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--card-background);
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 30px;
     box-shadow: 0 4px 15px var(--shadow-color);
+    gap: 10px; /* Add consistent spacing between elements */
 }
 
 .search-box i {
-    margin: 0 15px;
     color: var(--primary-color);
 }
 
@@ -99,23 +100,41 @@ header {
     background: none;
     font-size: 1rem;
     color: var(--text-color);
+    padding: 5px;
 }
 
+/* Update button styles to be more compact */
 .search-box button {
-    padding: 10px 25px;
+    padding: 8px 15px;
     border: none;
     border-radius: 20px;
     background-color: var(--primary-color);
     color: white;
     cursor: pointer;
     transition: var(--transition);
-    margin: 0 5px;
+    font-size: 0.9rem;
+    white-space: nowrap; /* Prevent button text from wrapping */
 }
 
 .search-box button:hover {
     background-color: var(--secondary-color);
 }
 
+/* Add responsive styles for smaller screens */
+@media (max-width: 480px) {
+    .search-box {
+        padding: 8px 12px;
+    }
+
+    .search-box button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .search-box i {
+        font-size: 0.9rem;
+    }
+}
 .weather-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
