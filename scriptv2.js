@@ -1,1 +1,315 @@
-const _0x4f912d=_0x4f7f;(function(_0x17f93b,_0x44bc62){const _0x50304a=_0x4f7f,_0x771b33=_0x17f93b();while(!![]){try{const _0x529d99=parseInt(_0x50304a(0x1c1))/0x1+parseInt(_0x50304a(0x1c8))/0x2*(parseInt(_0x50304a(0x158))/0x3)+-parseInt(_0x50304a(0x18b))/0x4+-parseInt(_0x50304a(0x224))/0x5*(-parseInt(_0x50304a(0x21f))/0x6)+-parseInt(_0x50304a(0x17c))/0x7*(parseInt(_0x50304a(0x1ee))/0x8)+-parseInt(_0x50304a(0x17d))/0x9*(-parseInt(_0x50304a(0x230))/0xa)+parseInt(_0x50304a(0x1b4))/0xb;if(_0x529d99===_0x44bc62)break;else _0x771b33['push'](_0x771b33['shift']());}catch(_0x3d0ce4){_0x771b33['push'](_0x771b33['shift']());}}}(_0xd2ad,0xae097));const _0xe8231b=(function(){let _0x4e07ae=!![];return function(_0x15f0bb,_0x2fa394){const _0x55fef2=_0x4e07ae?function(){const _0x1826d4=_0x4f7f;if(_0x2fa394){const _0xa92ca8=_0x2fa394[_0x1826d4(0x1cb)](_0x15f0bb,arguments);return _0x2fa394=null,_0xa92ca8;}}:function(){};return _0x4e07ae=![],_0x55fef2;};}());(function(){const _0x2a70b9=_0x4f7f,_0x4d2bd8={'AvdtF':_0x2a70b9(0x23e),'QrozB':_0x2a70b9(0x167),'cBmGv':_0x2a70b9(0x1f6),'cOLGG':'chain','LmqFG':'input','HrLrz':function(_0x2528ec,_0x260ab4){return _0x2528ec(_0x260ab4);},'XzjWm':function(_0x54b889){return _0x54b889();},'YCbnK':function(_0x32088e,_0x8ffe46,_0x521563){return _0x32088e(_0x8ffe46,_0x521563);},'vuchf':function(_0xf1a311,_0x11b6bf){return _0xf1a311===_0x11b6bf;},'KnkaN':_0x2a70b9(0x1d8),'KsvkH':'init','BpSnt':function(_0x5924d6,_0x57209b){return _0x5924d6+_0x57209b;},'bktPO':function(_0x323333,_0x2a4d89){return _0x323333===_0x2a4d89;},'xhpPq':'fgSRt','tZkXH':function(_0x6e3d64,_0x326b27){return _0x6e3d64(_0x326b27);},'KdkQy':function(_0x37c5ee,_0x1d3753,_0x30ccce){return _0x37c5ee(_0x1d3753,_0x30ccce);}};_0x4d2bd8[_0x2a70b9(0x24b)](_0xe8231b,this,function(){const _0x28ea84=_0x2a70b9,_0x48f1d6={'JMItJ':_0x4d2bd8['QrozB'],'dmiwR':_0x4d2bd8[_0x28ea84(0x236)],'YJxrJ':function(_0x245587,_0x46fae0){return _0x245587(_0x46fae0);},'xdYMC':'init','VLcWf':_0x4d2bd8[_0x28ea84(0x248)],'RkyJY':_0x4d2bd8[_0x28ea84(0x183)],'zgWPT':function(_0x23b008,_0x159608){const _0xb94820=_0x28ea84;return _0x4d2bd8[_0xb94820(0x16a)](_0x23b008,_0x159608);},'RSHOe':function(_0x32b7dd){const _0x47a356=_0x28ea84;return _0x4d2bd8[_0x47a356(0x255)](_0x32b7dd);},'jimex':function(_0x22bbd5,_0x56adf2,_0x415e90){const _0x5a7c7a=_0x28ea84;return _0x4d2bd8[_0x5a7c7a(0x1fb)](_0x22bbd5,_0x56adf2,_0x415e90);}};if(_0x4d2bd8[_0x28ea84(0x1dd)](_0x4d2bd8[_0x28ea84(0x25c)],_0x4d2bd8['KnkaN'])){const _0x67696f=new RegExp(_0x4d2bd8[_0x28ea84(0x1ff)]),_0x5d7364=new RegExp(_0x4d2bd8[_0x28ea84(0x236)],'i'),_0x1b3efb=_0xf58128(_0x4d2bd8[_0x28ea84(0x1ed)]);if(!_0x67696f['test'](_0x4d2bd8[_0x28ea84(0x244)](_0x1b3efb,_0x4d2bd8[_0x28ea84(0x248)]))||!_0x5d7364[_0x28ea84(0x260)](_0x1b3efb+_0x4d2bd8[_0x28ea84(0x183)])){if(_0x4d2bd8[_0x28ea84(0x1de)](_0x4d2bd8['xhpPq'],_0x28ea84(0x161))){const _0x3c4dd8={'tjGra':_0x48f1d6['JMItJ'],'erVlT':_0x48f1d6[_0x28ea84(0x24a)],'MIGQH':function(_0x2d79a9,_0x322a22){const _0x5f23d9=_0x28ea84;return _0x48f1d6[_0x5f23d9(0x1e1)](_0x2d79a9,_0x322a22);},'KuWDy':_0x48f1d6[_0x28ea84(0x1d3)],'oSnim':function(_0xf9a6a7,_0x3d81eb){return _0xf9a6a7+_0x3d81eb;},'gwrzZ':_0x48f1d6[_0x28ea84(0x1ae)],'gUCJH':_0x48f1d6['RkyJY'],'ljFbC':function(_0x4b5d61,_0x3061c5){const _0xb7a9cd=_0x28ea84;return _0x48f1d6[_0xb7a9cd(0x168)](_0x4b5d61,_0x3061c5);},'CcrBj':function(_0x18a78b){const _0x13cc23=_0x28ea84;return _0x48f1d6[_0x13cc23(0x25a)](_0x18a78b);}};_0x48f1d6[_0x28ea84(0x1aa)](_0x3e5344,this,function(){const _0x46cdf4=_0x28ea84,_0x58d6a3=new _0x161809(_0x3c4dd8[_0x46cdf4(0x1be)]),_0x4845c9=new _0x589b52(_0x3c4dd8[_0x46cdf4(0x180)],'i'),_0x429cf5=_0x3c4dd8[_0x46cdf4(0x174)](_0x204a96,_0x3c4dd8[_0x46cdf4(0x1fd)]);!_0x58d6a3[_0x46cdf4(0x260)](_0x3c4dd8[_0x46cdf4(0x228)](_0x429cf5,_0x3c4dd8[_0x46cdf4(0x1d0)]))||!_0x4845c9[_0x46cdf4(0x260)](_0x3c4dd8[_0x46cdf4(0x228)](_0x429cf5,_0x3c4dd8['gUCJH']))?_0x3c4dd8[_0x46cdf4(0x17f)](_0x429cf5,'0'):_0x3c4dd8['CcrBj'](_0x3a718e);})();}else _0x4d2bd8['tZkXH'](_0x1b3efb,'0');}else _0x4d2bd8['XzjWm'](_0xf58128);}else{const _0x514652=new _0x1676ad(_0x699c69[_0x28ea84(0x189)]);return _0x514652[_0x28ea84(0x1a2)](_0x4d2bd8['AvdtF'],{'hour':_0x28ea84(0x21b)});}})();}());const apiKey=_0x4f912d(0x1fa);let currentUnit='C';const cityInput=document[_0x4f912d(0x1c3)]('city-input'),searchBtn=document[_0x4f912d(0x1c3)](_0x4f912d(0x1e3)),currentLocationBtn=document['getElementById'](_0x4f912d(0x22e)),themeToggle=document[_0x4f912d(0x245)](_0x4f912d(0x237)),errorMessage=document[_0x4f912d(0x1c3)]('error-message');function _0x4f7f(_0x3b2ab3,_0x141c59){const _0x279eac=_0xd2ad();return _0x4f7f=function(_0xf58128,_0xe8231b){_0xf58128=_0xf58128-0x151;let _0xd2ad83=_0x279eac[_0xf58128];return _0xd2ad83;},_0x4f7f(_0x3b2ab3,_0x141c59);}function toggleTheme(){const _0x1138d1=_0x4f912d,_0x523e98={'Opgvj':function(_0x15c44c,_0x2d0611){return _0x15c44c===_0x2d0611;},'NUdrS':'light','xUuAK':'dark','ZwCok':_0x1138d1(0x155),'XjKBn':_0x1138d1(0x234)};document[_0x1138d1(0x22c)][_0x1138d1(0x203)][_0x1138d1(0x201)]=_0x523e98[_0x1138d1(0x1cf)](document[_0x1138d1(0x22c)][_0x1138d1(0x203)][_0x1138d1(0x201)],_0x1138d1(0x210))?_0x523e98[_0x1138d1(0x170)]:_0x523e98[_0x1138d1(0x193)],themeToggle[_0x1138d1(0x266)]=document[_0x1138d1(0x22c)][_0x1138d1(0x203)][_0x1138d1(0x201)]===_0x523e98[_0x1138d1(0x193)]?_0x523e98['ZwCok']:_0x523e98['XjKBn'];}themeToggle[_0x4f912d(0x1f3)](_0x4f912d(0x16d),toggleTheme);function _0xd2ad(){const _0x36d2b8=['cBmGv','.theme-toggle','DKnOR','beauP','forecastChart','length','top','Enter','en-US','RjULM','style','Geolocation\x20is\x20not\x20supported\x20by\x20your\x20browser','yjefr','Pjbba','BpSnt','querySelector','VSElh','Unable\x20to\x20retrieve\x20your\x20location','cOLGG','TyASJ','dmiwR','KdkQy','destroy','pLJDK','IXtNB','tbZzE','kvsbg','&q=','stateObject','Auxfw','bfAni','XzjWm','rgba(56,\x2000,\x2033,\x200.2)','city','map','uJUlg','RSHOe','constructor','KnkaN','3|2|4|6|0|7|5|8|1|9','City\x20not\x20found.\x20Please\x20try\x20again.','YKKBD','test','doYrd','string','IypBA','rgba(54,\x20162,\x20235,\x200.5)','YglLP','innerHTML','qxgOk','y-axis-temperature','Ryyxi','wind_dir','right','dQYLP','cxxSQ','y-temperature','ZXzqn','AyWwh','mtcrP','<i\x20class=\x22fas\x20fa-sun\x22></i>','uASwb','KxTKu','3363taBfiy','value','hourlyChart','LBjcG','Ovlap','YGybJ','nbVFA','left','line','Mifee','Rainfall\x20(mm)\x20/\x20Snow\x20(cm)','JkHVH','AQCOJ','dzDra','gger','function\x20*\x5c(\x20*\x5c)','zgWPT','HkHcX','HrLrz','guVCA','KvNAe','click','doxbY','y-axis-rainfall','NUdrS','short','region','Snow\x20(cm)','MIGQH','zNnTt','FESWJ','LtgQD','fBEdI','RNdYS','rgba(54,\x20162,\x20235,\x200.2)','text','1392902DEwhwk','1903059qYRhsO','date','ljFbC','erVlT','xCNvj','temp','LmqFG','Pfboz','uymsb','YKAoG','bDPZM','oSZjK','time','wind-speed','4515484WMmBBZ','Temperature\x20(°C)','NCNEK','rgba(54,\x20162,\x20235,\x201)','TeFiX','nsvow','YqTCZ','CPCST','xUuAK','MQwCT','kslmw','Fkvtm','IdFKG','dSeqJ','uOnoR','current','EvJqI','LYThr','wdmEZ','IUZIe','iDlJX','geolocation','linear','toLocaleTimeString','HoQHD','zLsku','feelslike_c','wind-dir','XqDbj','OVsPF','umuiD','jimex','VHBBi','ZlnMc','display','VLcWf','JBtgt','wHDsU','ZLGXc','IbIhO','RWUOL','9383770KPxyva','cApyR','WOuXF','2-digit','qaBwe','aMbhW','cMrKE','GpQPN','none','JSHnQ','tjGra','date-time','lSGEz','314047RPBjSP','HtucC','getElementById','otpkS','getContext','country','EtZay','774kysOVe','HjpPU','oTnpt','apply','weather-icon','ZXCMR','precip_mm','Opgvj','gwrzZ','QbwtF','totalprecip_mm','xdYMC','vUFHi','Bghek','DpXxa','iVlCn','xFzGx','ooMkc','coords','NELhw','wind_kph','vuchf','bktPO','rgba(255,\x2099,\x20132,\x201)','iYTCH','YJxrJ','LNQOx','search-btn','MzCEY','cOKQb','y-precipitation','textContent','cXkdi','counter','YmYDT','split','slice','KsvkH','8BFBynl','day','hBOLx','fSZvc','fZrOP','addEventListener','vtDAq','forecastday','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','round','bar','FDfJt','11e5e890f3eb43d2834153732240111','YCbnK','temp_c','KuWDy','action','QrozB','WJMPt','theme','rgba(255,\x2099,\x20132,\x200.2)','dataset','location','trim','xupZu','rFfWj','key','vhQhV','YTDcw','QhgiK','totalsnow_cm','getCurrentPosition','Harare','keypress','dark','Rain\x20(mm)','nLgZo','icon','block','DThTM','Rainfall\x20(mm)','hPRps','opsJb','condition','weather-desc','numeric','rgba(56,\x2000,\x2033,\x200.8)','rgba(0,\x200,\x200,\x200.1)','YPruH','1369902rHceJH','kOygk','humidity','onload','ifwpz','5XKanbs','Gzybv','\x20km/h','index','oSnim','bdMQT','zQQzA','hour','body','toLocaleDateString','current-location','qjqOI','10KatBAO','avgtemp_c','rgba(59,\x2048,\x2053,\x201)','NNfKL','<i\x20class=\x22fas\x20fa-moon\x22></i>','UquZR'];_0xd2ad=function(){return _0x36d2b8;};return _0xd2ad();}function updateDateTime(){const _0x15d26e=_0x4f912d,_0x5bc4f9={'JkHVH':_0x15d26e(0x1bf),'kvsbg':'long','NNfKL':_0x15d26e(0x21b),'IypBA':_0x15d26e(0x1b7)},_0x3b5bca=document['getElementById'](_0x5bc4f9[_0x15d26e(0x163)]),_0xa0988d=new Date(),_0x5de93f={'weekday':_0x5bc4f9[_0x15d26e(0x250)],'year':_0x5bc4f9[_0x15d26e(0x233)],'month':_0x5bc4f9['kvsbg'],'day':_0x15d26e(0x21b),'hour':_0x5bc4f9[_0x15d26e(0x263)],'minute':_0x5bc4f9['IypBA']};_0x3b5bca[_0x15d26e(0x1e7)]=_0xa0988d['toLocaleDateString'](_0x15d26e(0x23e),_0x5de93f);}async function fetchWeather(_0x2ce746){const _0x3adb96=_0x4f912d,_0x582dc4={'zLsku':function(_0x3c482d,_0x175a2f){return _0x3c482d(_0x175a2f);},'MzCEY':'City\x20not\x20found','RNdYS':function(_0x3ef6da,_0x524249){return _0x3ef6da(_0x524249);},'hBOLx':function(_0x151082,_0x3277d5){return _0x151082(_0x3277d5);},'ddyQV':function(_0x48feb3,_0xf1527d){return _0x48feb3(_0xf1527d);},'lSGEz':_0x3adb96(0x1bc),'NELhw':function(_0x25b043,_0x2943ab){return _0x25b043===_0x2943ab;},'xCNvj':'ZCKHe','pWsDF':'Fitnp','YKKBD':_0x3adb96(0x25e)};try{const _0x2519db=await _0x582dc4[_0x3adb96(0x1a4)](fetch,'https://api.weatherapi.com/v1/forecast.json?key='+apiKey+_0x3adb96(0x251)+_0x2ce746+'&days=14&aqi=yes');if(!_0x2519db['ok'])throw new Error(_0x582dc4[_0x3adb96(0x1e4)]);const _0x374320=await _0x2519db['json']();_0x582dc4[_0x3adb96(0x179)](updateWeatherUI,_0x374320),_0x582dc4[_0x3adb96(0x1f0)](updateForecastChart,_0x374320['forecast'][_0x3adb96(0x1f5)]),_0x582dc4['ddyQV'](updateHourlyForecastChart,_0x374320),errorMessage[_0x3adb96(0x240)]['display']=_0x582dc4[_0x3adb96(0x1c0)];}catch(_0x3dd8a6){if(_0x582dc4[_0x3adb96(0x1db)](_0x582dc4[_0x3adb96(0x181)],_0x582dc4['pWsDF'])){const _0x577182=_0x102bc0[_0x3adb96(0x1cb)](_0x5d7809,arguments);return _0x419016=null,_0x577182;}else errorMessage['textContent']=_0x582dc4[_0x3adb96(0x25f)],errorMessage['style']['display']=_0x3adb96(0x214);}}function updateWeatherUI(_0x28867f){const _0x5e3150=_0x4f912d,_0xe84f0a={'qjqOI':_0x5e3150(0x25d),'lyezI':_0x5e3150(0x1cc),'IXtNB':_0x5e3150(0x1a6),'ZXCMR':_0x5e3150(0x1c6),'vVhhx':_0x5e3150(0x257),'cMrKE':_0x5e3150(0x221),'doYrd':_0x5e3150(0x21a),'WQWAG':_0x5e3150(0x18a),'Auxfw':function(_0x5c235d){return _0x5c235d();}},_0x132b2c=_0xe84f0a[_0x5e3150(0x22f)][_0x5e3150(0x1eb)]('|');let _0x522b0f=0x0;while(!![]){switch(_0x132b2c[_0x522b0f++]){case'0':document[_0x5e3150(0x1c3)](_0xe84f0a['lyezI'])['src']=_0x28867f['current'][_0x5e3150(0x219)][_0x5e3150(0x213)];continue;case'1':document[_0x5e3150(0x1c3)](_0xe84f0a[_0x5e3150(0x24e)])[_0x5e3150(0x1e7)]=_0x28867f[_0x5e3150(0x19a)][_0x5e3150(0x26a)];continue;case'2':document[_0x5e3150(0x1c3)](_0xe84f0a[_0x5e3150(0x1cd)])[_0x5e3150(0x1e7)]=_0x28867f[_0x5e3150(0x204)][_0x5e3150(0x172)]+',\x20'+_0x28867f[_0x5e3150(0x204)]['country'];continue;case'3':document['getElementById'](_0xe84f0a['vVhhx'])[_0x5e3150(0x1e7)]=_0x28867f[_0x5e3150(0x204)]['name'];continue;case'4':document['getElementById'](_0x5e3150(0x182))[_0x5e3150(0x1e7)]=Math[_0x5e3150(0x1f7)](_0x28867f[_0x5e3150(0x19a)]['temp_c']);continue;case'5':document[_0x5e3150(0x1c3)](_0xe84f0a[_0x5e3150(0x1ba)])[_0x5e3150(0x1e7)]=_0x28867f['current'][_0x5e3150(0x221)]+'%';continue;case'6':document[_0x5e3150(0x1c3)](_0xe84f0a[_0x5e3150(0x261)])[_0x5e3150(0x1e7)]=_0x28867f[_0x5e3150(0x19a)]['condition'][_0x5e3150(0x17b)];continue;case'7':document[_0x5e3150(0x1c3)]('feels-like')['textContent']=Math['round'](_0x28867f[_0x5e3150(0x19a)][_0x5e3150(0x1a5)])+'°C';continue;case'8':document[_0x5e3150(0x1c3)](_0xe84f0a['WQWAG'])['textContent']=_0x28867f[_0x5e3150(0x19a)][_0x5e3150(0x1dc)]+_0x5e3150(0x226);continue;case'9':_0xe84f0a[_0x5e3150(0x253)](updateDateTime);continue;}break;}}function updateHourlyForecastChart(_0xea0b85){const _0x20facd=_0x4f912d,_0x1f0a23={'dzDra':function(_0x2ab728,_0x52358d){return _0x2ab728+_0x52358d;},'HoQHD':'debu','nLgZo':_0x20facd(0x15b),'oSZjK':_0x20facd(0x207),'qxgOk':'numeric','TyASJ':function(_0x53ae59,_0x1de8ed){return _0x53ae59(_0x1de8ed);},'vhQhV':function(_0xa235ce,_0x4e8532){return _0xa235ce!==_0x4e8532;},'LMARV':'RaaqH','uOnoR':function(_0x499abe,_0x4613b9){return _0x499abe<_0x4613b9;},'FDfJt':'hourlyForecastChart','pLJDK':function(_0x205f1d,_0x5cbcb1){return _0x205f1d instanceof _0x5cbcb1;},'GpQPN':function(_0x29a2e2,_0x384874){return _0x29a2e2===_0x384874;},'HjpPU':_0x20facd(0x1c4),'oTnpt':_0x20facd(0x160),'hPRps':'rgba(255,\x2099,\x20132,\x201)','cxxSQ':_0x20facd(0x151),'tbZzE':_0x20facd(0x17a),'ifwpz':'Snow\x20(cm)','HkHcX':_0x20facd(0x256),'VHBBi':_0x20facd(0x232),'iDlJX':_0x20facd(0x21d),'RWUOL':_0x20facd(0x1a1),'cUKAr':_0x20facd(0x15f),'ewFVT':'right','wHDsU':'Rain\x20(mm)\x20/\x20Snow\x20(cm)','PAgbD':_0x20facd(0x23c)},_0x282296=_0xea0b85['forecast']['forecastday'][0x0][_0x20facd(0x22b)],_0x49d9e5=new Date()['getHours'](),_0x3a416b=[..._0x282296[_0x20facd(0x1ec)](_0x49d9e5),..._0x282296[_0x20facd(0x1ec)](0x0,_0x49d9e5)]['slice'](0x0,0x18),_0x31c9ce=_0x3a416b[_0x20facd(0x258)](_0x46f36a=>{const _0x5c22ad=_0x20facd,_0x1b1caf={'DThTM':function(_0x45b433,_0x56c1b1){const _0x4d82b0=_0x4f7f;return _0x1f0a23[_0x4d82b0(0x165)](_0x45b433,_0x56c1b1);},'KvNAe':_0x1f0a23[_0x5c22ad(0x1a3)],'Pjbba':_0x5c22ad(0x252)};if(_0x1f0a23[_0x5c22ad(0x212)]!==_0x1f0a23[_0x5c22ad(0x188)]){const _0x567777=new Date(_0x46f36a[_0x5c22ad(0x189)]);return _0x567777[_0x5c22ad(0x1a2)](_0x5c22ad(0x23e),{'hour':_0x1f0a23[_0x5c22ad(0x267)]});}else(function(){return![];}[_0x5c22ad(0x25b)](KDuxvY[_0x5c22ad(0x215)](KDuxvY[_0x5c22ad(0x16c)],_0x5c22ad(0x166)))['apply'](KDuxvY[_0x5c22ad(0x243)]));}),_0x3df257=_0x3a416b[_0x20facd(0x258)](_0x41ac7e=>_0x41ac7e[_0x20facd(0x1fc)]),_0x8f0ae=_0x3a416b[_0x20facd(0x258)](_0x13201c=>_0x13201c[_0x20facd(0x1ce)]),_0x576379=_0x3a416b['map'](_0x5b0847=>_0x5b0847['snow_cm']||0x0),_0x3b0a39=document[_0x20facd(0x1c3)](_0x1f0a23[_0x20facd(0x1f9)])[_0x20facd(0x1c5)]('2d');if(_0x1f0a23[_0x20facd(0x24d)](window[_0x20facd(0x15a)],Chart)){if(_0x1f0a23[_0x20facd(0x1bb)](_0x1f0a23[_0x20facd(0x1c9)],_0x1f0a23[_0x20facd(0x1c9)]))window[_0x20facd(0x15a)]['destroy']();else{if(_0x18897c)return _0x5e25c7;else HGKeki[_0x20facd(0x249)](_0x4a71d9,0x0);}}window[_0x20facd(0x15a)]=new Chart(_0x3b0a39,{'type':_0x1f0a23[_0x20facd(0x1ca)],'data':{'labels':_0x31c9ce,'datasets':[{'label':_0x20facd(0x18c),'data':_0x3df257,'borderColor':_0x1f0a23[_0x20facd(0x217)],'backgroundColor':_0x20facd(0x202),'tension':0.4,'fill':!![],'yAxisID':_0x1f0a23[_0x20facd(0x26d)]},{'label':_0x20facd(0x211),'data':_0x8f0ae,'borderColor':_0x20facd(0x18e),'backgroundColor':_0x1f0a23[_0x20facd(0x24f)],'tension':0.4,'fill':!![],'yAxisID':_0x20facd(0x1e6)},{'label':_0x1f0a23[_0x20facd(0x223)],'data':_0x576379,'backgroundColor':_0x1f0a23[_0x20facd(0x169)],'borderColor':_0x1f0a23[_0x20facd(0x1ab)],'tension':0.4,'fill':!![],'yAxisID':_0x20facd(0x1e6)}]},'options':{'responsive':!![],'maintainAspectRatio':![],'interaction':{'mode':'index','intersect':![]},'scales':{'x':{'grid':{'color':_0x1f0a23[_0x20facd(0x19f)]}},'y-temperature':{'type':_0x1f0a23[_0x20facd(0x1b3)],'position':_0x1f0a23['cUKAr'],'grid':{'color':_0x1f0a23[_0x20facd(0x19f)]},'title':{'display':!![],'text':_0x20facd(0x18c)}},'y-precipitation':{'type':_0x1f0a23[_0x20facd(0x1b3)],'position':_0x1f0a23['ewFVT'],'grid':{'display':![]},'title':{'display':!![],'text':_0x1f0a23[_0x20facd(0x1b0)]},'min':0x0,'beginAtZero':!![],'ticks':{'callback':function(_0x9f8a66){const _0xeb6270=_0x20facd;if(_0x1f0a23[_0xeb6270(0x209)](_0x1f0a23['LMARV'],_0x1f0a23['LMARV'])){const _0x2b2ded=_0x278746?function(){const _0x28960e=_0xeb6270;if(_0xd757a8){const _0x505229=_0x5a9f17[_0x28960e(0x1cb)](_0x228651,arguments);return _0x5aa491=null,_0x505229;}}:function(){};return _0x5c8b38=![],_0x2b2ded;}else{if(_0x1f0a23[_0xeb6270(0x199)](_0x9f8a66,0x0))return null;return _0x9f8a66;}}}}},'plugins':{'legend':{'position':_0x1f0a23['PAgbD']},'title':{'display':![]}}}});}function updateForecastChart(_0xce564){const _0x2555bf=_0x4f912d,_0x415089={'Fkvtm':'forecastChart','bfAni':function(_0x328554,_0x27a544){return _0x328554 instanceof _0x27a544;},'YPruH':function(_0x516ac6,_0x8ff04a){return _0x516ac6===_0x8ff04a;},'LYThr':'zifth','qaBwe':_0x2555bf(0x1a9),'guVCA':_0x2555bf(0x1f8),'zQQzA':_0x2555bf(0x18c),'YmYDT':_0x2555bf(0x160),'cApyR':_0x2555bf(0x1df),'NCNEK':_0x2555bf(0x268),'CPCST':'Rainfall\x20(mm)','EuQcl':_0x2555bf(0x264),'YKAoG':_0x2555bf(0x18e),'qqVPy':'y-axis-rainfall','LtgQD':_0x2555bf(0x21c),'HtucC':'rgba(59,\x2048,\x2053,\x201)','XqDbj':_0x2555bf(0x227),'ZXzqn':_0x2555bf(0x1a1),'WOuXF':_0x2555bf(0x26b),'tOedn':'rgba(0,\x200,\x200,\x200.1)','unOds':'left'},_0x678f18=_0xce564['map'](_0x1af150=>new Date(_0x1af150[_0x2555bf(0x17e)])[_0x2555bf(0x22d)]('en-US',{'weekday':_0x2555bf(0x171)})),_0x1a4e04=_0xce564[_0x2555bf(0x258)](_0x2bf2d9=>_0x2bf2d9[_0x2555bf(0x1ef)][_0x2555bf(0x231)]),_0x4d2cc7=_0xce564[_0x2555bf(0x258)](_0x4a1d65=>_0x4a1d65[_0x2555bf(0x1ef)][_0x2555bf(0x1d2)]),_0x278b39=_0xce564[_0x2555bf(0x258)](_0xca91f5=>_0xca91f5[_0x2555bf(0x1ef)][_0x2555bf(0x20c)]),_0x266cf0=document['getElementById'](_0x415089[_0x2555bf(0x196)])['getContext']('2d');if(_0x415089[_0x2555bf(0x254)](window['forecastChart'],Chart)){if(_0x415089[_0x2555bf(0x21e)](_0x415089[_0x2555bf(0x19c)],_0x415089[_0x2555bf(0x1b8)]))return _0x3e09ff;else window['forecastChart'][_0x2555bf(0x24c)]();}window[_0x2555bf(0x23a)]=new Chart(_0x266cf0,{'type':_0x415089[_0x2555bf(0x16b)],'data':{'labels':_0x678f18,'datasets':[{'label':_0x415089[_0x2555bf(0x22a)],'data':_0x1a4e04,'type':_0x415089[_0x2555bf(0x1ea)],'borderColor':_0x415089[_0x2555bf(0x1b5)],'borderWidth':0x2,'fill':![],'tension':0.4,'yAxisID':_0x415089[_0x2555bf(0x18d)]},{'label':_0x415089[_0x2555bf(0x192)],'data':_0x4d2cc7,'backgroundColor':_0x415089['EuQcl'],'borderColor':_0x415089[_0x2555bf(0x186)],'borderWidth':0x1,'yAxisID':_0x415089['qqVPy']},{'label':'Snow\x20(cm)','data':_0x278b39,'backgroundColor':_0x415089[_0x2555bf(0x177)],'borderColor':_0x415089[_0x2555bf(0x1c2)],'borderWidth':0x1,'yAxisID':_0x415089['qqVPy']}]},'options':{'responsive':!![],'maintainAspectRatio':![],'interaction':{'mode':_0x415089[_0x2555bf(0x1a7)],'intersect':![]},'scales':{'y-axis-rainfall':{'type':_0x415089[_0x2555bf(0x152)],'position':_0x415089[_0x2555bf(0x1b6)],'grid':{'color':_0x415089['tOedn']},'title':{'display':!![],'text':_0x2555bf(0x162)},'stacked':![]},'y-axis-temperature':{'type':_0x415089[_0x2555bf(0x152)],'position':_0x415089['unOds'],'grid':{'display':![]},'title':{'display':!![],'text':_0x2555bf(0x18c)}}},'plugins':{'legend':{'position':_0x2555bf(0x23c)},'title':{'display':![]}}}});}function getCurrentLocation(){const _0x3c2474=_0x4f912d,_0x3992af={'mtcrP':_0x3c2474(0x1df),'bdMQT':'y-axis-temperature','QbwtF':_0x3c2474(0x216),'fBEdI':_0x3c2474(0x264),'uASwb':_0x3c2474(0x16f),'YqTCZ':_0x3c2474(0x21c),'WIxVi':_0x3c2474(0x232),'DKnOR':'index','Gzybv':_0x3c2474(0x21d),'JBtgt':_0x3c2474(0x162),'fZrOP':_0x3c2474(0x15f),'IbIhO':'top','pfiun':_0x3c2474(0x20b),'Ryyxi':function(_0x1f7106,_0x178c98){return _0x1f7106(_0x178c98);},'MoknA':_0x3c2474(0x247),'DpXxa':_0x3c2474(0x20e),'cXkdi':_0x3c2474(0x241),'yjefr':_0x3c2474(0x214)};navigator[_0x3c2474(0x1a0)]?navigator[_0x3c2474(0x1a0)][_0x3c2474(0x20d)](_0x162997=>{const _0x14227a=_0x3c2474,_0x57805b={'TeFiX':function(_0x1f5651,_0x2f435b){return _0x1f5651 instanceof _0x2f435b;},'zNnTt':_0x14227a(0x1f8),'iVlCn':_0x14227a(0x18c),'OnqRk':_0x3992af[_0x14227a(0x154)],'cUyDO':_0x3992af[_0x14227a(0x229)],'wdmEZ':_0x3992af[_0x14227a(0x1d1)],'nbVFA':_0x3992af[_0x14227a(0x178)],'YglLP':_0x14227a(0x18e),'nsvow':_0x3992af[_0x14227a(0x156)],'uvrCg':_0x14227a(0x173),'LgOFQ':_0x3992af[_0x14227a(0x191)],'ZlnMc':_0x3992af['WIxVi'],'beauP':_0x3992af[_0x14227a(0x238)],'uJUlg':_0x14227a(0x1a1),'mZSYR':_0x14227a(0x26b),'vUFHi':_0x3992af[_0x14227a(0x225)],'bDPZM':_0x3992af[_0x14227a(0x1af)],'Rfwlt':_0x3992af[_0x14227a(0x1f2)],'LNQOx':_0x3992af[_0x14227a(0x1b2)]};if(_0x14227a(0x218)!==_0x3992af['pfiun']){const {latitude:_0x26f326,longitude:_0x4ffff6}=_0x162997[_0x14227a(0x1da)];_0x3992af[_0x14227a(0x269)](fetchWeather,_0x26f326+','+_0x4ffff6);}else{const _0x479c55=_0x78c165['map'](_0x9d5db3=>new _0x1be7a9(_0x9d5db3[_0x14227a(0x17e)])[_0x14227a(0x22d)]('en-US',{'weekday':_0x14227a(0x171)})),_0x4597ad=_0x3c24e9[_0x14227a(0x258)](_0x109641=>_0x109641[_0x14227a(0x1ef)][_0x14227a(0x231)]),_0x2a340a=_0x396f92['map'](_0x3143cd=>_0x3143cd[_0x14227a(0x1ef)][_0x14227a(0x1d2)]),_0x182b6f=_0x55e94e['map'](_0x190474=>_0x190474['day'][_0x14227a(0x20c)]),_0x3ecf30=_0x5e50ff[_0x14227a(0x1c3)]('forecastChart')[_0x14227a(0x1c5)]('2d');_0x57805b[_0x14227a(0x18f)](_0x30eeb3[_0x14227a(0x23a)],_0x50c330)&&_0x11b0c8[_0x14227a(0x23a)]['destroy'](),_0x4e5038[_0x14227a(0x23a)]=new _0x3dae5d(_0x3ecf30,{'type':_0x57805b[_0x14227a(0x175)],'data':{'labels':_0x479c55,'datasets':[{'label':_0x57805b[_0x14227a(0x1d7)],'data':_0x4597ad,'type':_0x14227a(0x160),'borderColor':_0x57805b['OnqRk'],'borderWidth':0x2,'fill':![],'tension':0.4,'yAxisID':_0x57805b['cUyDO']},{'label':_0x57805b[_0x14227a(0x19d)],'data':_0x2a340a,'backgroundColor':_0x57805b[_0x14227a(0x15e)],'borderColor':_0x57805b[_0x14227a(0x265)],'borderWidth':0x1,'yAxisID':_0x57805b[_0x14227a(0x190)]},{'label':_0x57805b['uvrCg'],'data':_0x182b6f,'backgroundColor':_0x57805b['LgOFQ'],'borderColor':_0x57805b[_0x14227a(0x1ac)],'borderWidth':0x1,'yAxisID':_0x57805b['nsvow']}]},'options':{'responsive':!![],'maintainAspectRatio':![],'interaction':{'mode':_0x57805b[_0x14227a(0x239)],'intersect':![]},'scales':{'y-axis-rainfall':{'type':_0x57805b['uJUlg'],'position':_0x57805b['mZSYR'],'grid':{'color':_0x57805b[_0x14227a(0x1d4)]},'title':{'display':!![],'text':_0x57805b[_0x14227a(0x187)]},'stacked':![]},'y-axis-temperature':{'type':_0x57805b[_0x14227a(0x259)],'position':_0x57805b['Rfwlt'],'grid':{'display':![]},'title':{'display':!![],'text':_0x57805b['iVlCn']}}},'plugins':{'legend':{'position':_0x57805b[_0x14227a(0x1e2)]},'title':{'display':![]}}}});}},_0x28acc8=>{const _0x30551e=_0x3c2474;errorMessage[_0x30551e(0x1e7)]=_0x3992af['MoknA'],errorMessage[_0x30551e(0x240)][_0x30551e(0x1ad)]=_0x30551e(0x214),fetchWeather(_0x3992af[_0x30551e(0x1d6)]);}):(errorMessage[_0x3c2474(0x1e7)]=_0x3992af[_0x3c2474(0x1e8)],errorMessage['style'][_0x3c2474(0x1ad)]=_0x3992af[_0x3c2474(0x242)],_0x3992af[_0x3c2474(0x269)](fetchWeather,_0x3992af['DpXxa']));}searchBtn[_0x4f912d(0x1f3)](_0x4f912d(0x16d),()=>{const _0x11dcd7=_0x4f912d,_0x4f0bc4={'Pfboz':function(_0x1cc120,_0x1158a5){return _0x1cc120(_0x1158a5);}},_0x184f7a=cityInput['value'][_0x11dcd7(0x205)]();if(_0x184f7a)_0x4f0bc4[_0x11dcd7(0x184)](fetchWeather,_0x184f7a);}),cityInput[_0x4f912d(0x1f3)](_0x4f912d(0x20f),_0x254ba5=>{const _0x44ee35=_0x4f912d,_0x1cc3cc={'EtZay':function(_0x53887b,_0xca912e){return _0x53887b===_0xca912e;},'YGybJ':_0x44ee35(0x23d),'OVsPF':function(_0xa235b9,_0xc46f7a){return _0xa235b9(_0xc46f7a);}};if(_0x1cc3cc[_0x44ee35(0x1c7)](_0x254ba5[_0x44ee35(0x208)],_0x1cc3cc[_0x44ee35(0x15d)])){const _0x5910a7=cityInput[_0x44ee35(0x159)][_0x44ee35(0x205)]();if(_0x5910a7)_0x1cc3cc[_0x44ee35(0x1a8)](fetchWeather,_0x5910a7);}}),currentLocationBtn[_0x4f912d(0x1f3)](_0x4f912d(0x16d),getCurrentLocation),window[_0x4f912d(0x222)]=()=>{const _0x2c43e4=_0x4f912d,_0x30ed47={'iYTCH':function(_0x2537ab){return _0x2537ab();},'VnQPw':function(_0xa105c4,_0x1f487b,_0x27c37d){return _0xa105c4(_0x1f487b,_0x27c37d);}};_0x30ed47[_0x2c43e4(0x1e0)](getCurrentLocation),_0x30ed47['VnQPw'](setInterval,updateDateTime,0xea60);};function _0xf58128(_0x3ce96e){const _0x155d4e=_0x4f912d,_0x473c07={'poKKG':_0x155d4e(0x20a),'FqthX':function(_0x7084ae,_0xd0cbdd){return _0x7084ae(_0xd0cbdd);},'kOygk':_0x155d4e(0x20e),'iYpqZ':_0x155d4e(0x194),'FESWJ':'while\x20(true)\x20{}','JSHnQ':_0x155d4e(0x1e9),'hsEqh':function(_0x20721c,_0x5563a5){return _0x20721c===_0x5563a5;},'fJwNP':function(_0x9bf726,_0x2f05ba){return _0x9bf726!==_0x2f05ba;},'ooMkc':function(_0x209d09,_0x3f0ceb){return _0x209d09+_0x3f0ceb;},'vtDAq':function(_0x2dd221,_0x451974){return _0x2dd221/_0x451974;},'IdFKG':_0x155d4e(0x23b),'diZIz':function(_0x16bebe,_0x3f1d99){return _0x16bebe===_0x3f1d99;},'EvJqI':function(_0x3e32fd,_0x53532c){return _0x3e32fd%_0x53532c;},'XTeTa':function(_0x34dc89,_0x13e104){return _0x34dc89===_0x13e104;},'rHcDt':_0x155d4e(0x19e),'Ovlap':'debu','AyWwh':_0x155d4e(0x166),'zMUyd':_0x155d4e(0x1fe),'uymsb':_0x155d4e(0x252),'xupZu':function(_0x36d5b5){return _0x36d5b5();},'WJMPt':function(_0x4737de,_0x90cdcb,_0x497934){return _0x4737de(_0x90cdcb,_0x497934);},'kwPGJ':function(_0x171659,_0x2dee32){return _0x171659!==_0x2dee32;},'RjULM':_0x155d4e(0x1e5),'kslmw':function(_0x30369a,_0x2404be){return _0x30369a===_0x2404be;},'trkLV':_0x155d4e(0x1d5)};function _0x4d1429(_0x231b77){const _0x25ebf5=_0x155d4e,_0x2fba6d={'fSZvc':function(_0x3cfa9a,_0x512799){return _0x3cfa9a<_0x512799;},'doxbY':_0x473c07['poKKG'],'yvogU':function(_0x45b25e,_0x245b14){return _0x473c07['FqthX'](_0x45b25e,_0x245b14);},'ZLGXc':_0x473c07[_0x25ebf5(0x220)],'dSeqJ':_0x25ebf5(0x246),'dQYLP':_0x473c07['iYpqZ'],'aMbhW':_0x473c07['FESWJ'],'KxTKu':_0x473c07[_0x25ebf5(0x1bd)]};if(_0x473c07['hsEqh'](typeof _0x231b77,_0x25ebf5(0x262)))return function(_0x283799){}[_0x25ebf5(0x25b)](_0x473c07[_0x25ebf5(0x176)])[_0x25ebf5(0x1cb)](_0x473c07[_0x25ebf5(0x1bd)]);else{if(_0x473c07['fJwNP'](_0x473c07[_0x25ebf5(0x1d9)]('',_0x473c07[_0x25ebf5(0x1f4)](_0x231b77,_0x231b77))[_0x473c07[_0x25ebf5(0x197)]],0x1)||_0x473c07['diZIz'](_0x473c07[_0x25ebf5(0x19b)](_0x231b77,0x14),0x0)){if(_0x473c07['XTeTa'](_0x473c07['rHcDt'],_0x25ebf5(0x235))){if(_0x2fba6d[_0x25ebf5(0x1f1)](_0x3abfdc,0x0))return null;return _0x1bcb4c;}else(function(){const _0x50a1da=_0x25ebf5,_0x514fa3={'HIjfZ':function(_0x32436a,_0x3599eb){return _0x32436a(_0x3599eb);}};if('YTDcw'!==_0x2fba6d[_0x50a1da(0x16e)]){const _0x41dbc3=_0x4b09b2[_0x50a1da(0x159)][_0x50a1da(0x205)]();if(_0x41dbc3)_0x514fa3['HIjfZ'](_0x2e9130,_0x41dbc3);}else return!![];}[_0x25ebf5(0x25b)](_0x473c07[_0x25ebf5(0x15c)]+_0x473c07[_0x25ebf5(0x153)])['call'](_0x473c07['zMUyd']));}else{if('nNqlx'!=='ymjkw')(function(){const _0x1dd374=_0x25ebf5,_0x2a7b15={'ZsVFx':function(_0x13be28,_0x2e5be5){return _0x2fba6d['yvogU'](_0x13be28,_0x2e5be5);},'AQCOJ':_0x1dd374(0x214),'RrhOe':function(_0x1e71be,_0x1742c2){return _0x2fba6d['yvogU'](_0x1e71be,_0x1742c2);},'iWfIg':_0x2fba6d[_0x1dd374(0x1b1)]};if(_0x2fba6d[_0x1dd374(0x198)]!==_0x2fba6d[_0x1dd374(0x26c)])return![];else _0x3f0dba[_0x1dd374(0x1a0)][_0x1dd374(0x20d)](_0x5eca05=>{const _0x51fbb6=_0x1dd374,{latitude:_0xa50d96,longitude:_0xb4f3ce}=_0x5eca05[_0x51fbb6(0x1da)];_0x2a7b15['ZsVFx'](_0x422ade,_0xa50d96+','+_0xb4f3ce);},_0x2cf4e1=>{const _0x2d5987=_0x1dd374;_0x386c81[_0x2d5987(0x1e7)]=_0x2d5987(0x247),_0x56079e[_0x2d5987(0x240)]['display']=_0x2a7b15[_0x2d5987(0x164)],_0x2a7b15['RrhOe'](_0x2c2e0e,_0x2a7b15['iWfIg']);});}[_0x25ebf5(0x25b)](_0x473c07[_0x25ebf5(0x1d9)](_0x473c07[_0x25ebf5(0x15c)],_0x473c07[_0x25ebf5(0x153)]))[_0x25ebf5(0x1cb)](_0x473c07[_0x25ebf5(0x185)]));else return function(_0x12201c){}[_0x25ebf5(0x25b)](_0x2fba6d[_0x25ebf5(0x1b9)])[_0x25ebf5(0x1cb)](_0x2fba6d[_0x25ebf5(0x157)]);}}_0x4d1429(++_0x231b77);}try{if(_0x3ce96e){if(_0x473c07['kwPGJ'](_0x473c07[_0x155d4e(0x23f)],_0x473c07[_0x155d4e(0x23f)]))_0x473c07[_0x155d4e(0x206)](_0x2a77ec),_0x473c07[_0x155d4e(0x200)](_0x4a92c8,_0x373ecb,0xea60);else return _0x4d1429;}else _0x473c07[_0x155d4e(0x195)]('Bghek',_0x473c07['trkLV'])?_0x473c07['FqthX'](_0x4d1429,0x0):(_0x2d05ec[_0x155d4e(0x1e7)]=_0x155d4e(0x241),_0x1dcb00[_0x155d4e(0x240)][_0x155d4e(0x1ad)]=_0x155d4e(0x214),_0x4bd26d(_0x473c07[_0x155d4e(0x220)]));}catch(_0x2d5cdb){}}
+const apiKey = '4a2f11c859d54cea9a3110639241711';
+        let currentUnit = 'C';
+
+        // DOM Elements
+        const cityInput = document.getElementById('city-input');
+        const searchBtn = document.getElementById('search-btn');
+        const currentLocationBtn = document.getElementById('current-location');
+        const themeToggle = document.querySelector('.theme-toggle');
+        const errorMessage = document.getElementById('error-message');
+
+        // Theme Toggle
+        function toggleTheme() {
+            document.body.dataset.theme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+            themeToggle.innerHTML = document.body.dataset.theme === 'dark' ? 
+                '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        }
+        
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Update DateTime
+        function updateDateTime() {
+            const dateTime = document.getElementById('date-time');
+            const now = new Date();
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            };
+            dateTime.textContent = now.toLocaleDateString('en-US', options);
+        }
+
+        // Fetch Weather Data
+        async function fetchWeather(city) {
+            try {
+                const response = await fetch(
+                    `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=14&aqi=yes`
+                );
+
+                if (!response.ok) throw new Error('City not found');
+
+                const data = await response.json();
+                updateWeatherUI(data);
+                updateForecastChart(data.forecast.forecastday);
+                updateHourlyForecastChart(data);
+                errorMessage.style.display = 'none';
+            } catch (error) {
+                errorMessage.textContent = 'Oops, We cant find your city :(';
+                errorMessage.style.display = 'block';
+            }
+        }
+
+        // Update Weather UI
+        function updateWeatherUI(data) {
+            document.getElementById('city').textContent = data.location.name;
+            document.getElementById('country').textContent = `${data.location.region}, ${data.location.country}`;
+            document.getElementById('temp').textContent = Math.round(data.current.temp_c);
+            document.getElementById('weather-desc').textContent = data.current.condition.text;
+            document.getElementById('weather-icon').src = data.current.condition.icon;
+            document.getElementById('feels-like').textContent = `${Math.round(data.current.feelslike_c)}°C`;
+            document.getElementById('humidity').textContent = `${data.current.humidity}%`;
+            document.getElementById('wind-speed').textContent = `${data.current.wind_kph} km/h`;
+            document.getElementById('wind-dir').textContent = data.current.wind_dir;
+
+            updateDateTime();
+            
+        }
+
+        
+
+        function updateHourlyForecastChart(data) {
+            const hours = data.forecast.forecastday[0].hour;
+            const currentHour = new Date().getHours();
+            
+            // Get next 24 hours of data, starting from current hour
+            const hourlyData = [...hours.slice(currentHour), ...hours.slice(0, currentHour)].slice(0, 24);
+            
+            const labels = hourlyData.map(hour => {
+                const date = new Date(hour.time);
+                return date.toLocaleTimeString('en-US', { hour: 'numeric' });
+            });
+            
+            const temperatures = hourlyData.map(hour => hour.temp_c);
+            const precipitation = hourlyData.map(hour => hour.precip_mm);
+            const snow = hourlyData.map(hour => hour.snow_cm || 0);
+            
+            const ctx = document.getElementById('hourlyForecastChart').getContext('2d');
+            
+            if (window.hourlyChart instanceof Chart) {
+                window.hourlyChart.destroy();
+            }
+        
+            window.hourlyChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Temperature (°C)',
+                            data: temperatures,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            tension: 0.4,
+                            fill: true,
+                            yAxisID: 'y-temperature'
+                        },
+                        {
+                            label: 'Rain (mm)',
+                            data: precipitation,
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            tension: 0.4,
+                            fill: true,
+                            yAxisID: 'y-precipitation'
+                        },
+                        {
+                            label: 'Snow (cm)',
+                            data: snow,
+                            backgroundColor: 'rgba(56, 00, 33, 0.2)',
+                            borderColor: 'rgba(59, 48, 53, 1)',
+                            tension: 0.4,
+                            fill: true,
+                            yAxisID: 'y-precipitation'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            }
+                        },
+                        'y-temperature': {
+                            type: 'linear',
+                            position: 'left',
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            title: {
+                                display: true,
+                                text: 'Temperature (°C)'
+                            }
+                        },
+                        'y-precipitation': {
+                            type: 'linear',
+                            position: 'right',
+                            grid: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'Rain (mm) / Snow (cm)'
+                            },
+                            // Add these properties to set the minimum value and prevent negative values
+                            min: 0,
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    if (value < 0) return null;
+                                    return value;
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+
+        // Update Forecast Chart
+        function updateForecastChart(forecastData) {
+            const dates = forecastData.map(day => new Date(day.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }));
+            const temperatures = forecastData.map(day => day.day.avgtemp_c);
+            const rainfall = forecastData.map(day => day.day.totalprecip_mm);
+            const snowfall = forecastData.map(day => day.day.totalsnow_cm);
+        
+            const ctx = document.getElementById('forecastChart').getContext('2d');
+            
+            if (window.forecastChart instanceof Chart) {
+                window.forecastChart.destroy();
+            }
+        
+            window.forecastChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: dates,
+                    datasets: [
+                        {
+                            label: 'Temperature (°C)',
+                            data: temperatures,
+                            type: 'line',
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            borderWidth: 2,
+                            fill: false,
+                            tension: 0.4,
+                            yAxisID: 'y-axis-temperature'
+                        },
+                        {
+                            label: 'Rainfall (mm)',
+                            data: rainfall,
+                            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1,
+                            yAxisID: 'y-axis-rainfall'
+                        },
+                        {
+                            label: 'Snow (cm)',
+                            data: snowfall,
+                            backgroundColor: 'rgba(56, 00, 33, 0.8)',
+                            borderColor: 'rgba(59, 48, 53, 1)',
+                            borderWidth: 1,
+                            yAxisID: 'y-axis-rainfall'
+                        },
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        'y-axis-rainfall': {
+                            type: 'linear',
+                            position: 'right',
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            title: {
+                                display: true,
+                                text: 'Rainfall (mm) / Snow (cm)'
+                            },
+                            stacked: false
+                        },
+                        'y-axis-temperature': {
+                            type: 'linear',
+                            position: 'left',
+                            grid: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'Temperature (°C)'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+        // Get Current Location
+        function getCurrentLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    position => {
+                        const { latitude, longitude } = position.coords;
+                        fetchWeather(`${latitude},${longitude}`);
+                    },
+                    error => {
+                        errorMessage.textContent = 'Unable to retrieve your location';
+                        errorMessage.style.display = 'block';
+                        fetchWeather("Harare");
+                    }
+                );
+            } else {
+                errorMessage.textContent = 'Geolocation is not supported by your browser';
+                errorMessage.style.display = 'block';
+                fetchWeather("Harare");
+            }
+        }
+
+        // Event Listeners
+        searchBtn.addEventListener('click', () => {
+            const city = cityInput.value.trim();
+            if (city) fetchWeather(city);
+        });
+
+        cityInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                const city = cityInput.value.trim();
+                if (city) fetchWeather(city);
+            }
+        });
+
+        currentLocationBtn.addEventListener('click', getCurrentLocation);
+
+        // Initial Load
+        window.onload = () => {
+            getCurrentLocation();
+            setInterval(updateDateTime, 60000);
+        };
