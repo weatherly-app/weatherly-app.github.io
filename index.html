@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/favicon.png" type="image/png">
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8508041489724576"
@@ -26,8 +26,9 @@
                 <i class="fas fa-cloud-sun"></i>
                 <h1>Weatherly</h1>
             </div>
-            <div class="theme-toggle">
-                <i class="fas fa-moon"></i>
+            <div class="toggle-group">
+                <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+                <div class="settings-toggle"><i class="fas fa-wrench"></i></div>
             </div>
         </header>
 
@@ -46,8 +47,6 @@
 
         <div id="error-message" class="error-message"></div>
 
-        
-
         <div class="weather-info">
             <div class="weather-card">
                 <h2 id="city">Loading...</h2>
@@ -56,7 +55,7 @@
                 <div class="current-weather">
                     <img id="weather-icon" src="" alt="Weather Icon">
                     <div class="temp">
-                        <span id="temp">0</span>°<span id="temp-unit">C</span>
+                        <span id="temp">0°</span><span id="temp-unit">C</span>
                     </div>
                     <p id="weather-desc"></p>
                 </div>
@@ -115,6 +114,58 @@
         </footer>
     </div>
 
-    <script src="scriptv2.js"></script>
+
+<!-- Add this at the end of the body, before the closing body tag -->
+<div class="settings-modal" id="settings-modal">
+    <div class="settings-content">
+        <div class="settings-header">
+            <h2>Settings</h2>
+            <button class="close-settings">×</button>
+        </div>
+        <div class="settings-tabs">
+            <button class="tab-btn active" data-tab="info">Info</button>
+            <button class="tab-btn" data-tab="options">Options</button>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="info">
+                <h3>How to Use</h3>
+                <div class="info-section">
+                    <h4>How to Use</h4>
+                    <p>Enter a city name in the search box and click the search button or press Enter. To get the weather at your current location, Click the location dot.</p>
+                    
+                    <h4>Temperature Units</h4>
+                    <p>Switch between Celsius and Fahrenheit in the Options tab.</p>
+                    
+                    <h4>Dark Mode</h4>
+                    <p>Toggle dark mode using the sun/moon icon.</p>
+                    
+                    <h4>Weather Charts</h4>
+                    <p>View detailed 24-hour and 14-day forecasts in the interactive charts below.</p>
+
+                    <h4>Chart Control</h4>
+                    <p>Click on an elements color box to remove or add that elements graph.</p>
+                    <p>Click on any part of a graph to see the forecast for that time/day</p>
+                    
+
+                </div>
+            </div>
+            <div class="tab-pane" id="options">
+                <h3>Options</h3>
+                <div class="option-item">
+                    <label>Temperature Unit</label>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="unit-toggle">
+                        <label for="unit-toggle">
+                            <span class="unit-c">°C</span>
+                            <span class="unit-f">°F</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
