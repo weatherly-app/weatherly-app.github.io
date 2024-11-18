@@ -1,5 +1,5 @@
 const apiKey = '4a2f11c859d54cea9a3110639241711';
-        let currentUnit = 'C';
+        
 
         // DOM Elements
         const cityInput = document.getElementById('city-input');
@@ -7,6 +7,9 @@ const apiKey = '4a2f11c859d54cea9a3110639241711';
         const currentLocationBtn = document.getElementById('current-location');
         const themeToggle = document.querySelector('.theme-toggle');
         const errorMessage = document.getElementById('error-message');
+
+        
+        
 
         // Theme Toggle
         function toggleTheme() {
@@ -61,21 +64,84 @@ async function fetchWeather(city) {
 }
 
 
-        // Update Weather UI
-        function updateWeatherUI(data) {
-            document.getElementById('city').textContent = data.location.name;
-            document.getElementById('country').textContent = `${data.location.region}, ${data.location.country}`;
-            document.getElementById('temp').textContent = Math.round(data.current.temp_c);
-            document.getElementById('weather-desc').textContent = data.current.condition.text;
-            document.getElementById('weather-icon').src = data.current.condition.icon;
-            document.getElementById('feels-like').textContent = `${Math.round(data.current.feelslike_c)}°C`;
-            document.getElementById('humidity').textContent = `${data.current.humidity}%`;
-            document.getElementById('wind-speed').textContent = `${data.current.wind_kph} km/h`;
-            document.getElementById('wind-dir').textContent = data.current.wind_dir;
+// Settings Modal
+const settingsToggle = document.querySelector('.settings-toggle');
+const settingsModal = document.getElementById('settings-modal');
+const closeSettings = document.querySelector('.close-settings');
+const tabBtns = document.querySelectorAll('.tab-btn');
+const tabPanes = document.querySelectorAll('.tab-pane');
+const unitToggle = document.getElementById('unit-toggle');
 
-            updateDateTime();
-            
+// Load saved preferences
+let currentUnit = localStorage.getItem('tempUnit') || 'C';
+unitToggle.checked = currentUnit === 'F';
+
+// Settings Modal Controls
+settingsToggle.addEventListener('click', () => {
+    settingsModal.style.display = 'flex';
+});
+
+closeSettings.addEventListener('click', () => {
+    settingsModal.style.display = 'none';
+});
+
+settingsModal.addEventListener('click', (e) => {
+    if (e.target === settingsModal) {
+        settingsModal.style.display = 'none';
+    }
+});
+
+// Tab Controls
+tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabPanes.forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).classList.add('active');
+    });
+});
+
+unitToggle.addEventListener('change', () => {
+    currentUnit = unitToggle.checked ? 'F' : 'C';
+    localStorage.setItem('tempUnit', currentUnit);
+
+    // Update the temperature display if weather data is available
+    const currentTemp = document.getElementById('temp');
+    const feelsLikeTemp = document.getElementById('feels-like');
+
+    if (currentTemp.textContent) {
+        const tempValue = parseFloat(currentTemp.textContent);
+        const feelsLikeValue = parseFloat(feelsLikeTemp.textContent);
+
+        if (currentUnit === 'F') {
+            currentTemp.textContent = Math.round((tempValue * 9/5) + 32);
+            feelsLikeTemp.textContent = `${Math.round((feelsLikeValue * 9/5) + 32)}°${currentUnit}`;
+        } else {
+            currentTemp.textContent = Math.round((tempValue - 32) * 5/9);
+            feelsLikeTemp.textContent = `${Math.round((feelsLikeValue - 32) * 5/9)}°${currentUnit}`;
         }
+
+        document.getElementById('temp-unit').textContent = `°${currentUnit}`;
+    }
+});
+
+function updateWeatherUI(data) {
+    const temp = currentUnit === 'C' ? data.current.temp_c : data.current.temp_f;
+    const feelsLike = currentUnit === 'C' ? data.current.feelslike_c : data.current.feelslike_f;
+    
+    document.getElementById('city').textContent = data.location.name;
+    document.getElementById('country').textContent = `${data.location.region}, ${data.location.country}`;
+    document.getElementById('temp').textContent = Math.round(temp);
+    document.getElementById('temp-unit').textContent = `°${currentUnit}`; // Update unit here
+    document.getElementById('weather-desc').textContent = data.current.condition.text;
+    document.getElementById('weather-icon').src = data.current.condition.icon;
+    document.getElementById('feels-like').textContent = `${Math.round(feelsLike)}°${currentUnit}`; // Update unit here
+    document.getElementById('humidity').textContent = `${data.current.humidity}%`;
+    document.getElementById('wind-speed').textContent = `${data.current.wind_kph} km/h`;
+    document.getElementById('wind-dir').textContent = data.current.wind_dir;
+
+    updateDateTime();
+}
 
         
 
@@ -297,6 +363,8 @@ async function fetchWeather(city) {
                 console.error("Error updating forecast chart:", error);
             }
         }
+
+        
         
         // Get Current Location
         function getCurrentLocation() {
