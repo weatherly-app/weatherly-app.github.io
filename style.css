@@ -60,7 +60,14 @@ header {
     font-weight: 600;
 }
 
-.theme-toggle {
+.toggle-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.theme-toggle,
+.settings-toggle {
     cursor: pointer;
     font-size: 1.5rem;
     padding: 10px;
@@ -70,11 +77,11 @@ header {
     transition: var(--transition);
 }
 
-.theme-toggle:hover {
+.theme-toggle:hover,
+.settings-toggle:hover {
     transform: scale(1.1);
 }
 
-/* Update the search-container and search-box styles */
 .search-container {
     margin: 30px 0;
 }
@@ -83,13 +90,13 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--card-background);
-    padding: 10px 15px;
+    padding: 15px;
     border-radius: 30px;
     box-shadow: 0 4px 15px var(--shadow-color);
-    gap: 10px; /* Add consistent spacing between elements */
 }
 
 .search-box i {
+    margin: 0 15px;
     color: var(--primary-color);
 }
 
@@ -100,41 +107,23 @@ header {
     background: none;
     font-size: 1rem;
     color: var(--text-color);
-    padding: 5px;
 }
 
-/* Update button styles to be more compact */
 .search-box button {
-    padding: 8px 15px;
+    padding: 10px 25px;
     border: none;
     border-radius: 20px;
     background-color: var(--primary-color);
     color: white;
     cursor: pointer;
     transition: var(--transition);
-    font-size: 0.9rem;
-    white-space: nowrap; /* Prevent button text from wrapping */
+    margin: 0 5px;
 }
 
 .search-box button:hover {
     background-color: var(--secondary-color);
 }
 
-/* Add responsive styles for smaller screens */
-@media (max-width: 480px) {
-    .search-box {
-        padding: 8px 12px;
-    }
-
-    .search-box button {
-        padding: 6px 12px;
-        font-size: 0.8rem;
-    }
-
-    .search-box i {
-        font-size: 0.9rem;
-    }
-}
 .weather-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -195,8 +184,9 @@ header {
 
 .chart-container {
     position: relative;
-    height: 400px;
+    height: 300px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .error-message {
@@ -234,14 +224,6 @@ footer a {
     margin-bottom: 20px;
 }
 
-/* Update the chart-container class */
-.chart-container {
-    position: relative;
-    height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
 @media (max-width: 768px) {
     .container {
         padding: 10px;
@@ -254,6 +236,154 @@ footer a {
     .logo h1 {
         font-size: 1.5rem;
     }
+}
 
-    
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-content {
+    background-color: var(--card-background);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 15px var(--shadow-color);
+}
+
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close-settings {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.settings-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.tab-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.info-section {
+    padding: 15px;
+}
+
+.info-section h4 {
+    margin: 15px 0 5px 0;
+    color: var(--primary-color);
+}
+
+.info-section p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.option-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--background-color);
+    margin-bottom: 10px;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 100px;
+    height: 34px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background-color);
+    border-radius: 34px;
+    transition: var(--transition);
+}
+
+.toggle-switch label:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.toggle-switch input:checked + label {
+    background-color: var(--primary-color);
+}
+
+.toggle-switch input:checked + label:before {
+    transform: translateX(65px);
+}
+
+.unit-c, .unit-f {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.unit-c {
+    left: 10px;
+}
+
+.unit-f {
+    right: 10px;
 }
