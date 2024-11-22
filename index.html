@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <title>Weatherly - Live Weather Updates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/favicon.png" type="image/png">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8508041489724576"
+     crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-cloud-sun"></i>
+                <h1>Weatherly</h1>
+            </div>
+            <div class="toggle-group">
+                <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+                <div class="settings-toggle"><i class="fas fa-wrench"></i></div>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="city-input" placeholder="Search for a city...">
+                <button id="current-location">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                </button>
+                <button id="search-btn">
+                    <i class="fa-solid fa-search" style="color: #ffffff;"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+
+        <div class="weather-info">
+            <div class="weather-card">
+                <h2 id="city">Loading...</h2>
+                <p id="country"></p>
+                <p id="date-time"></p>
+                <div class="current-weather">
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <div class="temp">
+                        <span id="temp">0°</span><span id="temp-unit">C</span>
+                    </div>
+                    <p id="weather-desc"></p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-temperature-low"></i>
+                        <p>Feels Like</p>
+                        <p id="feels-like">0°C</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-water"></i>
+                        <p>Humidity</p>
+                        <p id="humidity">0%</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <p>Wind Speed</p>
+                        <p id="wind-speed">0 km/h</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-compass"></i>
+                        <p>Wind Direction</p>
+                        <p id="wind-dir">N</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add this inside your weather-info section, before the forecast-container -->
+    <div class="hourly-forecast-container">
+        <h3>24-Hour Forecast</h3>
+        <div class="chart-container">
+            <canvas id="hourlyForecastChart"></canvas>
+        </div>
+    </div>
+
+        <div class="forecast-container">
+            <h3>Coming Forecast</h3>
+            <div class="chart-container">
+                <canvas id="forecastChart"></canvas>
+            </div>
+        </div>
+        
+
+        <footer>
+            <p>Created with <i class="fas fa-heart" style="color: var(--primary-color);"></i> by Clayton Banks @ ClaytonHax Solutions</p>
+            <p>© 2024</p>
+        </footer>
+    </div>
+
+
+<!-- Add this at the end of the body, before the closing body tag -->
+<div class="settings-modal" id="settings-modal">
+    <div class="settings-content">
+        <div class="settings-header">
+            <h2>Tools</h2>
+            <button class="close-settings">×</button>
+        </div>
+        <div class="settings-tabs">
+            <button class="tab-btn active" data-tab="info">Info</button>
+            <button class="tab-btn" data-tab="options">Options</button>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="info">
+                <h3>Quick Guide</h3>
+                <div class="info-section">
+                    <h4>The basics</h4>
+                    <p>Enter a city name in the search box and click the search button or press Enter. To get the weather at your current location, Click the location dot.</p>
+                    
+                    <h4>Customization</h4>
+                    <p>Switch between Celsius and Fahrenheit in the Options tab.
+                        Toggle dark mode using the sun/moon icon.
+                    </p>
+                    
+                    <h4>Weather Charts</h4>
+                    <p>View detailed 24-hour and 14-day forecasts in the interactive charts below.</p>
+
+                    <h4>Chart Control</h4>
+                    <p>Click on an elements color box to remove or add that elements graph.
+                        Click on any part of a graph to see the forecast for that time/day
+                    </p>
+                    
+                    
+
+                </div>
+            </div>
+            <div class="tab-pane" id="options">
+                <h3>Options</h3>
+                <div class="option-item">
+                    <label>Temperature Unit</label>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="unit-toggle">
+                        <label for="unit-toggle">
+                            <span class="unit-c">°C</span>
+                            <span class="unit-f">°F</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="info-section">
+                    <h4>About Weatherly</h4>
+                    <p>Weatherly is a free tool to check the weather anywhere in the world. I made it as a fun project and have been improving it ever since. I use some ads just so I can afford to keep it afloat, but try not to be too intrusive.</p>
+
+
+                </div>
+                
+            </div>
+            <div class="social-icons">
+                <a href="/donate" class="donation-icon">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a href="/donate" class="donation-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="/donate" class="donation-icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="/donate" class="donation-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+    
+    
+</div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
