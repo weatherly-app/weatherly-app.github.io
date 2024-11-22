@@ -387,3 +387,35 @@ footer a {
 .unit-f {
     right: 10px;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.donation-icon {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.donation-icon:hover {
+    color: #ff4081;
+    transform: scale(1.1);
+}
